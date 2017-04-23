@@ -11,8 +11,14 @@ var i = Math.floor(r_text.length * Math.random());
 
 document.write(r_text[i]);
 
+function strip(html)
+{
+   var tmp = document.createElement("DIV");
+   tmp.innerHTML = html;
+   return tmp.textContent || tmp.innerText || "";
+}
 </script>
 <type ="text";>
-  <head>
+
 <style>
 </html>
