@@ -1,2 +1,0 @@
-# Pun
-Random Pun selection :)
