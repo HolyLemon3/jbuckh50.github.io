@@ -12,3 +12,28 @@
 
 
 //document.write(r_text[i]);
+
+
+
+<SCRIPT LANGUAGE="JAVASCRIPT">
+
+var r_text = new Array ();
+r_text[0] = "I'd tell you a pun but I have to Fuey of them";
+r_text[1] = "What was Tracers second ability again, I don't RECALL";
+r_text[2] = "Has anyone seen Lena, I can't seem to TRACER";
+r_text[3] = "Why did Junkrat go to bed, because he was TIRED";
+r_text[4] = "I used to have a lot of Torb jokes but now I'm running SHORT";
+
+var i = Math.floor(r_text.length * Math.random());
+
+document.write(r_text[i]);
+
+function strip(html)
+{
+   var tmp = document.createElement("DIV");
+   tmp.innerHTML = html;
+   return tmp.textContent || tmp.innerText || "";
+}
+</script>
+<style>
+</html>
