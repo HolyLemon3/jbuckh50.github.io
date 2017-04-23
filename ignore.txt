@@ -1,0 +1,14 @@
+//"</FONT></center>"
+//<br /><br /><br /><br /><br /><br /><br/
+//var bgcolorlist=new Array("#000000")
+//document.body.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)];
+//body,td,th {body,td,th
+//color: #000;
+//<!--
+//<style type="text/css">
+
+
+</script>
+
+
+//document.write(r_text[i]);
